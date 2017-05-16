@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Breakers</title>
+	<style>
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	canvas{
+		background: #ff99ff;
+		display: block;
+	}
+	</style>
+</head>
+<body>
+
+<canvas id = "myCanvas" width="480" height="320">
+</canvas>
+
+<script>
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+
+ctx.beginPath();
+ctx.rect(20, 40, 50, 50);
+ctx.fillStyle = "#80dfff";
+ctx.fill();
+ctx.closePath();
+
+ctx.beginPath();
+ctx.rect(220, 240, 250, 300);
+ctx.fillStyle = "#66ff66";
+ctx.fill();
+ctx.closePath();
+
+ctx.beginPath();
+ctx.rect(220, 10, 60, 10);
+ctx.fillStyle = "#4da6ff";
+ctx.fill();
+ctx.closePath();
+
+ctx.beginPath();
+ctx.rect(20, 20, 10, 50);
+ctx.fillStyle = "#0000cc";
+ctx.fill();
+ctx.closePath();
+
+ctx.beginPath();
+ctx.rect(100, 10, 10, 10);
+ctx.fillStyle = "#ff1a1a";
+ctx.fill();
+ctx.closePath();
+
+ctx.beginPath();
+ctx.rect(20, 40, 10, 80);
+ctx.fillStyle = "#ff9900";
+ctx.fill();
+ctx.closePath();
+
+ctx.beginPath();
+ctx.rect(120, 210, 150, 100);
+ctx.fillStyle = "#c61aff";
+ctx.fill();
+ctx.closePath();
+
+ctx.beginPath();
+ctx.arc(240, 160, 20, 0, 3.14*2, false);
+ctx.fillStyle = "#FF0000";
+ctx.fill();
+ctx.closePath();
+
+ctx.beginPath();
+ctx.arc(200, 260, 20, 0, 3.14*2, false);
+ctx.fillStyle = "#ff99ff";
+ctx.fill();
+ctx.closePath();
+
+ctx.beginPath();
+ctx.arc(100, 200, 80, 0, 3.14*2, false);
+ctx.fillStyle = "#c6538c";
+ctx.fill();
+ctx.closePath();
+
+ctx.beginPath();
+ctx.arc(100, 320, 100, 200, 3.14*2, false);
+ctx.fillStyle = "#ffa64d";
+ctx.fill();
+ctx.closePath();
+
+ctx.beginPath();
+ctx.arc(40, 40, 80, 80, 3.14*2, false);
+ctx.fillStyle = "#006699";
+ctx.fill();
+ctx.closePath();
+
+ctx.beginPath();
+ctx.arc(460, 10, 20, 0, 3.14*2, false);
+ctx.fillStyle = "#ccff99";
+ctx.fill();
+ctx.closePath();
+
+ctx.beginPath();
+ctx.arc(285, 168, 10, 0, 3.14*2, false);
+ctx.fillStyle = "#e67300";
+ctx.fill();
+ctx.closePath();
+
+ctx.beginPath();
+ctx.arc(10, 260, 5, 0, 3.14*2, false);
+ctx.fillStyle = "#e6e600";
+ctx.fill();
+ctx.closePath();
+
+ctx.beginPath();
+ctx.arc(10, 60, 5, 0, 3.14*2, false);
+ctx.fillStyle = "#001a0f";
+ctx.fill();
+ctx.closePath();
+
+</script>
+
+</body>
+</html>
